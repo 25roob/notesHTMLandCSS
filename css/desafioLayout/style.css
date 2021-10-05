@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header{
+    background-color: rgb(183, 227, 233);
+    height: 10vh;
+}
+
+main{
+    height: 80vh;
+}
+
+footer{
+    height: 10vh;
+    background-color: yellowgreen;
+}
+
+figure{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.nav {
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 1.5rem;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding-top: 0;
+}
+
+aside {
+    width: 30vw;
+    background-color: teal;
+    display: inline-block;
+    height: 80vh;
+}
+
+aside div {
+    height: 16vh;
+    margin: 3vh;
+    background-color: tomato;
+    border-radius: 1rem;
+}
+
+section {
+    position: absolute;
+    left: 30vw;
+    width: 70vw;
+    display: inline-block;
+    background-color: thistle;
+    height: 80vh;
+}
+
+.redes, .info {
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+
+
+.info {
+    position: absolute;
+    right: 1.5rem;
+}
+
